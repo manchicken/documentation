@@ -1,0 +1,8 @@
+{{- $lang := page.Lang -}}
+{{- $fullfile := (print "content/" $lang "/reuse/" (.Get 0) ".md") -}}
+{{- if (fileExists $fullfile) -}}
+{{- warnf "Loading %q" $fullfile -}}
+{{- readFile $fullfile -}}
+{{- else -}}
+  {{- errorf "Reuse failed for %q" $fullfile -}}
+{{- end -}}
