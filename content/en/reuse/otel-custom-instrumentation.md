@@ -1,3 +1,7 @@
+---
+params: []
+---
+
 {{< callout url="#" btn_hidden="true" >}}
 Support for custom instrumenting your application using the OpenTelemetry API and sending the spans to Datadog is in beta.
 {{< /callout >}}
