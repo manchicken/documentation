@@ -1,0 +1,20 @@
+{
+  "data": {
+    "attributes": {
+      "filter": {
+        "from": "2022-06-01T06:54:00Z",
+        "query": "*",
+        "to": "2022-06-01T06:55:00Z"
+      },
+      "options": {
+        "timezone": "GMT"
+      },
+      "page": {
+        "cursor": "eyJzdGFydEF0IjoiQVFBQUFYS2tMS3pPbm40NGV3QUFBQUJCV0V0clRFdDZVbG8zY3pCRmNsbHJiVmxDWlEifQ==",
+        "limit": 25
+      },
+      "sort": "timestamp"
+    },
+    "type": "search_request"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "data": {
+    "attributes": {
+      "filter": {
+        "from": "now-15m",
+        "query": "service:web* AND @http.status_code:[200 TO 299]",
+        "to": "now"
+      },
+      "options": {
+        "timezone": "GMT"
+      },
+      "sort": "timestamp"
+    },
+    "type": "search_request"
+  }
+}
